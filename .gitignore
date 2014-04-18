@@ -1,0 +1,42 @@
+# Editor/IDE Junk
+
+## Emacs/VIM
+*~
+*.sw?
+[#]*[#]
+.[#]*
+
+## Eclipse
+.project
+.settings
+.pydevproject
+
+
+# native object files
+*.so
+*.[oa]
+
+# python compiled files
+*.py[cdo]
+
+
+# python packaging
+*.egg
+*.egg-info
+.installed.cfg
+dist/
+build/
+eggs/
+sdist/
+PKG-INFO
+MANIFEST
+MANIFEST.vertx
+
+pip-log.txt
+
+.coverage
+htmlcov
+coverage.xml
+
+# vertx
+mods/

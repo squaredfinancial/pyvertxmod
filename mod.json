@@ -1,0 +1,19 @@
+{
+
+  // Python verticle
+  "main": "vertxmain.py",
+
+  // If your module is going to be registered in the Vert.x module registry you will also need the following
+  // mandatory fields
+  "description": "example of python distutils building a vertx module",
+  "licenses": ["Public Domain"],
+  "author": "Squared Financial",
+
+  // Optional fields
+  "developers": ["Squared Financial IT"],
+  "keywords": ["squared", "financial", "python", "module", "example"],
+  "homepage": "http://squaredfinancial.com/",
+
+  "auto-redeploy": true
+}
+

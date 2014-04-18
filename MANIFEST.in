@@ -1,0 +1,3 @@
+include vertxmain.py mod.json
+recurive-include frobnicate *.py
+global-exclude *~

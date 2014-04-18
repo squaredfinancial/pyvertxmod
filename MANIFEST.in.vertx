@@ -1,0 +1,6 @@
+include vertxmain.py mod.json
+# hmm need the directory itself in the zip
+include frobnicate 
+recursive-include frobnicate *.py
+exclude setup.py
+global-exclude *~
